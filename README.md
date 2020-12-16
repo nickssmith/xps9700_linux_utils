@@ -28,7 +28,8 @@ Above commands and files found from [here](https://blog.fts.scot/2020/07/04/dell
 
 ## Fingerprint scanner
 
-I forget which one I used to get it working, but one of the packages in the `fingerprint` directory worked for me
+Use the `libfprint-2-tod1-goodix_0.0.4-0ubuntu1somerville1_amd64.deb` package in the `fingerprint` directory, if that doesnt work, try the other one. Note that that is only the driver, the other PAM auth stuff also has to be installed
+
 
 ## Add VNC Monitor
 
