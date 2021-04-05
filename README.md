@@ -21,6 +21,8 @@ sudo dkms install soundwire/1.4.0
 ```
 And then copy the files in the `audio` directory to thier realitive system locations
 
+the contents of `sof-soundwire` go in `/usr/share/alsa/ucm2/sof-soundwire`. Delete the contents of the existing sof-soundwire folder (if you have it) and replace them with the ones from the folder
+
 
 Above commands and files found from [here](https://blog.fts.scot/2020/07/04/dell-xps-2020-how-to-get-audio-working-on-linux/)
 
